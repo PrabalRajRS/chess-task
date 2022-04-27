@@ -1,0 +1,28 @@
+.app {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background-color: rgb(198, 198, 198);
+}
+
+.chessboard {
+  width: 800px;
+  background-color: aquamarine;
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.black-box {
+  width: 100px;
+  background-color: black;
+}
+
+.red-box {
+  width: 100px;
+  background-color: #ee0505;
+}
+
+.white-box {
+  width: 100px;
+  background-color: white;
+}
